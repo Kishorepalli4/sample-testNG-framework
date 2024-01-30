@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-27T22:16:38 AEDT" name="Learning Testing" finished-at="2024-01-27T22:17:14 AEDT" duration-ms="35419">
+    <groups>
+    </groups>
+    <test started-at="2024-01-27T22:16:38 AEDT" name="AddEmployeeTest" finished-at="2024-01-27T22:17:14 AEDT" duration-ms="35419">
+      <class name="com.orangeHRM.tests.Test2_AddEmployee">
+        <test-method is-config="true" signature="browserSetup()[pri:0, instance:com.orangeHRM.tests.Test2_AddEmployee@5860f3d7]" started-at="2024-01-27T22:16:38 AEDT" name="browserSetup" finished-at="2024-01-27T22:16:39 AEDT" duration-ms="1256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.orangeHRM.tests.Test2_AddEmployee@5860f3d7]" started-at="2024-01-27T22:16:39 AEDT" name="loginTest" finished-at="2024-01-27T22:16:47 AEDT" duration-ms="7296" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:com.orangeHRM.tests.Test2_AddEmployee@5860f3d7]" started-at="2024-01-27T22:16:47 AEDT" name="takeScreenshot" finished-at="2024-01-27T22:16:47 AEDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginTest status=SUCCESS method=Test1_Login.loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.orangeHRM.tests.Test2_AddEmployee@5860f3d7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method signature="addEmployee(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.orangeHRM.tests.Test2_AddEmployee@5860f3d7]" started-at="2024-01-27T22:16:47 AEDT" name="addEmployee" data-provider="sampleData" finished-at="2024-01-27T22:16:58 AEDT" duration-ms="10972" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chandler]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bing]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Chandler06]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Test@01221234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addEmployee -->
+        <test-method signature="addEmployee(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.orangeHRM.tests.Test2_AddEmployee@5860f3d7]" started-at="2024-01-27T22:16:58 AEDT" name="addEmployee" data-provider="sampleData" finished-at="2024-01-27T22:17:02 AEDT" duration-ms="4508" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Joey]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tribbiani]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Tribbiani05]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Test@01221234]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <span class="oxd-switch-input oxd-switch-input--active --label-right" data-v-8e4757dc=""></span> is not clickable at point (878, 431). Other element would receive the click: <div class="oxd-form-loader" data-v-d5bfe35b="">...</div>
+  (Session info: chrome=120.0.6099.225)
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2f52b99e8307317287966319ed5b2bcf, clickElement {id=C5F41E1A5AB54831F63F069680C9645D_element_217}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\palli\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51598}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51598/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (2f52b99e8307317287966319ed5b2bcf)] -> xpath: (//div[@class='oxd-form-row user-form-header'])//span]
+Session ID: 2f52b99e8307317287966319ed5b2bcf]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="oxd-switch-input oxd-switch-input--active --label-right" data-v-8e4757dc=""></span> is not clickable at point (878, 431). Other element would receive the click: <div class="oxd-form-loader" data-v-d5bfe35b="">...</div>
+  (Session info: chrome=120.0.6099.225)
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2f52b99e8307317287966319ed5b2bcf, clickElement {id=C5F41E1A5AB54831F63F069680C9645D_element_217}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\palli\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51598}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51598/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (2f52b99e8307317287966319ed5b2bcf)] -> xpath: (//div[@class='oxd-form-row user-form-header'])//span]
+Session ID: 2f52b99e8307317287966319ed5b2bcf
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+at com.orangeHRM.pages.PIMpage.clickCreateLoginSwitch(PIMpage.java:41)
+at com.orangeHRM.tests.Test2_AddEmployee.addEmployee(Test2_AddEmployee.java:48)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addEmployee -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:com.orangeHRM.tests.Test2_AddEmployee@5860f3d7]" started-at="2024-01-27T22:16:58 AEDT" name="takeScreenshot" finished-at="2024-01-27T22:16:58 AEDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addEmployee status=SUCCESS method=Test2_AddEmployee.addEmployee(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.orangeHRM.tests.Test2_AddEmployee@5860f3d7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:com.orangeHRM.tests.Test2_AddEmployee@5860f3d7]" started-at="2024-01-27T22:17:02 AEDT" name="takeScreenshot" finished-at="2024-01-27T22:17:02 AEDT" duration-ms="150" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addEmployee status=FAILURE method=Test2_AddEmployee.addEmployee(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.orangeHRM.tests.Test2_AddEmployee@5860f3d7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method signature="addEmployee(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.orangeHRM.tests.Test2_AddEmployee@5860f3d7]" started-at="2024-01-27T22:17:02 AEDT" name="addEmployee" data-provider="sampleData" finished-at="2024-01-27T22:17:13 AEDT" duration-ms="11063" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ross]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Geller]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[RossGeller06]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Test@01221234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addEmployee -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:com.orangeHRM.tests.Test2_AddEmployee@5860f3d7]" started-at="2024-01-27T22:17:13 AEDT" name="takeScreenshot" finished-at="2024-01-27T22:17:13 AEDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addEmployee status=SUCCESS method=Test2_AddEmployee.addEmployee(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.orangeHRM.tests.Test2_AddEmployee@5860f3d7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method is-config="true" signature="teardownBrowser()[pri:0, instance:com.orangeHRM.tests.Test2_AddEmployee@5860f3d7]" started-at="2024-01-27T22:17:13 AEDT" name="teardownBrowser" finished-at="2024-01-27T22:17:14 AEDT" duration-ms="130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownBrowser -->
+      </class> <!-- com.orangeHRM.tests.Test2_AddEmployee -->
+    </test> <!-- AddEmployeeTest -->
+  </suite> <!-- Learning Testing -->
+</testng-results>

@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Learning_Testing" class="navigator-link">
+              <span class="suite-name border-failed">Learning Testing</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Learning_Testing" class="navigator-link ">
+                    <span>C:\Users\palli\eclipse-workspace\orangehrm-automation\src\test\resources\TestNG.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Learning_Testing" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Learning_Testing" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Learning_Testing" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Learning_Testing" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Learning_Testing" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Learning_Testing" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">4 methods, 1 failed,   3 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Learning_Testing" class="hide-methods failed suite-Learning_Testing"> (hide)</a> <!-- hide-methods failed suite-Learning_Testing -->
+                      <a href="#" panel-name="suite-Learning_Testing" class="show-methods failed suite-Learning_Testing"> (show)</a> <!-- show-methods failed suite-Learning_Testing -->
+                    </span>
+                    <div class="method-list-content failed suite-Learning_Testing">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Learning_Testing" title="com.orangeHRM.tests.Test2_AddEmployee" class="method navigator-link" hash-for-method="addEmployee(Joey, Tribbiani, Tribbiani05, Test@01221234)">addEmployee(Joey, Tribbiani, Tribbiani05, Test@01221234)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Learning_Testing -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Learning_Testing" class="hide-methods passed suite-Learning_Testing"> (hide)</a> <!-- hide-methods passed suite-Learning_Testing -->
+                      <a href="#" panel-name="suite-Learning_Testing" class="show-methods passed suite-Learning_Testing"> (show)</a> <!-- show-methods passed suite-Learning_Testing -->
+                    </span>
+                    <div class="method-list-content passed suite-Learning_Testing">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Learning_Testing" title="com.orangeHRM.tests.Test2_AddEmployee" class="method navigator-link" hash-for-method="addEmployee(Chandler, Bing, Chandler06, Test@01221234)">addEmployee(Chandler, Bing, Chandler06, Test@01221234)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Learning_Testing" title="com.orangeHRM.tests.Test2_AddEmployee" class="method navigator-link" hash-for-method="addEmployee(Ross, Geller, RossGeller06, Test@01221234)">addEmployee(Ross, Geller, RossGeller06, Test@01221234)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Learning_Testing" title="com.orangeHRM.tests.Test2_AddEmployee" class="method navigator-link" hash-for-method="loginTest(Admin, admin123)">loginTest(Admin, admin123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Learning_Testing -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Learning_Testing" class="panel Learning_Testing">
+          <div class="suite-Learning_Testing-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.orangeHRM.tests.Test2_AddEmployee</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addEmployee(Joey, Tribbiani, Tribbiani05, Test@01221234)">
+                  </a> <!-- addEmployee(Joey, Tribbiani, Tribbiani05, Test@01221234) -->
+                  <span class="method-name">addEmployee</span>
+                  <span class="parameters">(Joey,Tribbiani,Tribbiani05,Test@01221234)</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;span class=&quot;oxd-switch-input oxd-switch-input--active --label-right&quot; data-v-8e4757dc=&quot;&quot;&gt;&lt;/span&gt; is not clickable at point (878, 431). Other element would receive the click: &lt;div class=&quot;oxd-form-loader&quot; data-v-d5bfe35b=&quot;&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=120.0.6099.225)
+Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.4.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2f52b99e8307317287966319ed5b2bcf, clickElement {id=C5F41E1A5AB54831F63F069680C9645D_element_217}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\palli\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51598}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51598/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (2f52b99e8307317287966319ed5b2bcf)] -&gt; xpath: (//div[@class=&apos;oxd-form-row user-form-header&apos;])//span]
+Session ID: 2f52b99e8307317287966319ed5b2bcf
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at com.orangeHRM.pages.PIMpage.clickCreateLoginSwitch(PIMpage.java:41)
+	at com.orangeHRM.tests.Test2_AddEmployee.addEmployee(Test2_AddEmployee.java:48)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Learning_Testing-class-failed -->
+          <div class="suite-Learning_Testing-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.orangeHRM.tests.Test2_AddEmployee</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addEmployee(Chandler, Bing, Chandler06, Test@01221234)">
+                  </a> <!-- addEmployee(Chandler, Bing, Chandler06, Test@01221234) -->
+                  <span class="method-name">addEmployee</span>
+                  <span class="parameters">(Chandler,Bing,Chandler06,Test@01221234)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addEmployee(Ross, Geller, RossGeller06, Test@01221234)">
+                  </a> <!-- addEmployee(Ross, Geller, RossGeller06, Test@01221234) -->
+                  <span class="method-name">addEmployee</span>
+                  <span class="parameters">(Ross,Geller,RossGeller06,Test@01221234)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest(Admin, admin123)">
+                  </a> <!-- loginTest(Admin, admin123) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">(Admin,admin123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Learning_Testing-class-passed -->
+        </div> <!-- panel Learning_Testing -->
+        <div panel-name="test-xml-Learning_Testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\palli\eclipse-workspace\orangehrm-automation\src\test\resources\TestNG.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Learning Testing&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;AddEmployeeTest&quot;&gt;
+    &lt;parameter name=&quot;loginUserName&quot; value=&quot;Admin&quot;/&gt;
+    &lt;parameter name=&quot;empLastName&quot; value=&quot;Bing&quot;/&gt;
+    &lt;parameter name=&quot;empFirstName&quot; value=&quot;Joey&quot;/&gt;
+    &lt;parameter name=&quot;empPassword&quot; value=&quot;Test123&quot;/&gt;
+    &lt;parameter name=&quot;loginPassword&quot; value=&quot;admin123&quot;/&gt;
+    &lt;parameter name=&quot;empUserName&quot; value=&quot;Joey125y5a&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.orangeHRM.tests.Test2_AddEmployee&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- AddEmployeeTest --&gt;
+&lt;/suite&gt; &lt;!-- Learning Testing --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Learning_Testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Learning Testing</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">AddEmployeeTest (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Learning_Testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Learning Testing</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Learning_Testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Learning Testing</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Learning_Testing');
+function tableData_Learning_Testing() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(4);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'addEmployee')
+data.setCell(0, 2, 'com.orangeHRM.tests.Test2_AddEmployee')
+data.setCell(0, 3, 11063);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'addEmployee')
+data.setCell(1, 2, 'com.orangeHRM.tests.Test2_AddEmployee')
+data.setCell(1, 3, 10972);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'loginTest')
+data.setCell(2, 2, 'com.orangeHRM.tests.Test2_AddEmployee')
+data.setCell(2, 3, 7296);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'addEmployee')
+data.setCell(3, 2, 'com.orangeHRM.tests.Test2_AddEmployee')
+data.setCell(3, 3, 4508);
+window.suiteTableData['Learning_Testing']= { tableData: data, tableDiv: 'times-div-Learning_Testing'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 33 seconds</span>
+              <div id="times-div-Learning_Testing">
+              </div> <!-- times-div-Learning_Testing -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Learning_Testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Learning Testing</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Learning_Testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Learning_Testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.orangeHRM.tests.Test2_AddEmployee</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">browserSetup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">loginTest(Admin, admin123)</span>
+                <span class="method-start">1264 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshot([TestResult name=loginTest status=SUCCESS method=Test1_Login.loginTest(java.lang.String,java.lang.St...)</span>
+                <span class="method-start">8563 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">addEmployee(Chandler, Bing, Chandler06, Test@01221234)</span>
+                <span class="method-start">8567 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshot([TestResult name=addEmployee status=SUCCESS method=Test2_AddEmployee.addEmployee(java.lang.String,ja...)</span>
+                <span class="method-start">19541 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">addEmployee(Joey, Tribbiani, Tribbiani05, Test@01221234)</span>
+                <span class="method-start">19541 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshot([TestResult name=addEmployee status=FAILURE method=Test2_AddEmployee.addEmployee(java.lang.String,ja...)</span>
+                <span class="method-start">24054 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">addEmployee(Ross, Geller, RossGeller06, Test@01221234)</span>
+                <span class="method-start">24204 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshot([TestResult name=addEmployee status=SUCCESS method=Test2_AddEmployee.addEmployee(java.lang.String,ja...)</span>
+                <span class="method-start">35268 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">teardownBrowser</span>
+                <span class="method-start">35269 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

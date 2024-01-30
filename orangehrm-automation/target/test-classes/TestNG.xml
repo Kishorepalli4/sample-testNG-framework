@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Learning Testing" >
+
+
+  
+  <test name="AddEmployeeTest">
+  	<parameter name= "loginUserName" value= "Admin"/>
+  	<parameter name= "loginPassword" value= "admin123"/>
+  	<parameter name= "empFirstName" value= "Joey"/>
+  	<parameter name= "empLastName" value= "Bing"/>
+  	<parameter name= "empUserName" value= "Joey125y5a"/>
+  	<parameter name= "empPassword" value= "Test123"/>
+
+    <classes>
+ 		<class name= "com.orangeHRM.tests.Test2_AddEmployee"/>
+    </classes>
+  </test>
+
+</suite>
